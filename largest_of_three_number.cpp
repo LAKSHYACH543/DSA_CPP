@@ -8,15 +8,15 @@ int main() {
     cin>>b;
     cout<<"enter third number";
     cin>>c;
-    if((a>b)&&(a>c)){
+    if((a>=b)&&(a>=c)){
         cout<<("the largest number is");
         cout<<a;
     }
-    else if((b>a)&&(b>c)){
+    else if((b>=a)&&(b>=c)){
         cout<<"the largest number is";
         cout<<b;
     }
-    else if((c>a)&&(c>b)){
+    else if((c>=a)&&(c>=b)){
         cout<<"the largest number is";
         cout<<c;
     }
